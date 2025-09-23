@@ -5,7 +5,7 @@ Flutter SDK (latest stable)
 A device (laptop/phone) connected to the same Wi-Fi for mobile testing
 Backend (FastAPI + YOLOv8)
 ## 1. Clone the repository  
-git clone [https://github.com/your-username/proximity-detection.git](https://github.com/your-username/proximity-detection.git)
+git clone [https://github.com/DivyanshuVerma-7/Proximity_detection.git](https://github.com/your-username/proximity-detection.git)
 cd proximity-detection/backend
 
 ## 2. Create & activate virtual environment  
