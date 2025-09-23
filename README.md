@@ -5,7 +5,7 @@ Flutter SDK (latest stable)
 A device (laptop/phone) connected to the same Wi-Fi for mobile testing
 Backend (FastAPI + YOLOv8)
 ## 1. Clone the repository  
-git clone [https://github.com/DivyanshuVerma-7/Proximity_detection.git](https://github.com/your-username/proximity-detection.git)
+git clone [https://github.com/DivyanshuVerma-7/Proximity_detection.git](https://github.com/your-username/proximity-detection.git)  
 cd proximity-detection/backend
 
 ## 2. Create & activate virtual environment  
@@ -44,9 +44,6 @@ flutter run -d chrome
 flutter run
 
 ## 4. Connect to backend
-In the app, open the settings (gear icon)
-Enter your backend host: 192.168.x.x:8000
-Save → the app will auto-connect via WebSocket and start showing live updates.
-In the app, open the settings (gear icon)
-Enter your backend host: 192.168.x.x:8000
-Save → the app will auto-connect via WebSocket and start showing live updates.
+In the app, open the settings (gear icon)  
+Enter your backend host: 192.168.x.x:8000  
+Save → the app will auto-connect via WebSocket and start showing live updates.  
