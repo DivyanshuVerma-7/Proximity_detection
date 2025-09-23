@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Base config: allow cleartext traffic (http://) for dev/testing -->
+    <base-config cleartextTrafficPermitted="true" />
+
+    <!-- You can also scope it to only your laptop's IP -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.74.233</domain>
+    </domain-config>
+</network-security-config>
