@@ -168,6 +168,7 @@ async def background_loop(video_path: str = None,
     orig_h, orig_w = None, None
     resized_w, resized_h = output_dims
 
+
     while True:
         # read frame (in thread)
         ret_frame = await to_thread(cap.read)
@@ -198,6 +199,9 @@ async def background_loop(video_path: str = None,
             proximity_threshold, conf_threshold
         )
 
+        cv2.imshow("Proximity Detection - Demo", annotated)
+        cv2.waitKey(1)
+
         # compute overall_zone (same as before)
         if summary:
             zones = [s["zone"] for s in summary]
@@ -218,6 +222,3 @@ async def background_loop(video_path: str = None,
                 "frames": [{"detections": summary}],
                 "summary_zone": overall_zone
             })
-
-        # small sleep to yield to event loop; tune as needed
-        await asyncio.sleep(0.02)
